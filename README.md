@@ -25,15 +25,12 @@ This project explores the power of word-vectors to do multi-classification with 
 <div align = "center">
 <img src = "https://img1.wsimg.com/isteam/ip/2d33dabb-b536-484f-ac3e-25fe02574c07/420ccc51-0634-4622-9263-03c5e94b2a4f.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:650,cg:true"; width = 412px>
 </div>
-<pre style = "font-size: 15px;margin-left: 2em;
-margin-right: 3em; 
-    word-wrap: break-word; ">
-<p style = "margin-left :4ch; margin-right:5ch; font-family: Helvetica Neue;  font-size: 18px; line-height:1.4">
-<font color = "MediumVioletRed">chart 1                                                             chart 2</font>
-</p></pre>
 
+<div align = "center">
 <img src = 
 "https://img1.wsimg.com/isteam/ip/2d33dabb-b536-484f-ac3e-25fe02574c07/ace2f00c-0845-4abd-a1b1-d94d095be5ec.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:650,cg:true"; width = 600px>
+ 
+ </div>
 <pre style = "font-size: 15px;margin-left: 2em;
 margin-right: 3em; 
     word-wrap: break-word; ">
