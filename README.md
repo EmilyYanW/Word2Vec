@@ -21,9 +21,10 @@ This project explores the power of word-vectors to do multi-classification with 
 </p>
 <div align = "center">
 <img src = "https://img1.wsimg.com/isteam/ip/2d33dabb-b536-484f-ac3e-25fe02574c07/183fd173-fba1-467a-b907-cf9113e2a83c.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:622,h:311,cg:true">
-
+</div>
+<div align = "center">
 <img src = "https://img1.wsimg.com/isteam/ip/2d33dabb-b536-484f-ac3e-25fe02574c07/420ccc51-0634-4622-9263-03c5e94b2a4f.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:650,cg:true"; width = 412px>
-
+</div>
 <pre style = "font-size: 15px;margin-left: 2em;
 margin-right: 3em; 
     word-wrap: break-word; ">
