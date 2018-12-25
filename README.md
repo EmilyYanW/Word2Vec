@@ -1,6 +1,6 @@
-# Word2Vec
+
 <div align = "center" style = "font-family: Bangla Sangam MN;">
-<font size= 5.8><b> Word2Vec Movie Sentiment Classification  <br>--  with Skipgram and CBOW  Implementation
+<font size= 7><b> Word2Vec Movie Sentiment Classification  <br>--  with Skipgram and CBOW  Implementation
  <font></b>
 
 <hr/>
