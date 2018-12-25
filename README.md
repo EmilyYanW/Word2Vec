@@ -32,22 +32,3 @@ This project explores the power of word-vectors to do multi-classification with 
  
  </div>
 
-<br>
-<p style = "margin-left :4ch; margin-right:5ch; font-family: Helvetica Neue; color: #909090; font-size: 16px; line-height:1.4">
-The logistic regression model with self-trained word-vectors achieved an accuracy of 28.55 on the best regularisation of 1.00e-02. The model with GloVe has an accuracy of 37.69 with regularisation 1.00e+01. This is because GloVe has more dimensions and therefore a much bigger regularisation term.  As the confusion matrix shows the model actually did a pretty good job doing a dichotomy decision and it tends to predict all reviews as - or +. But it rarely predicts correctly ++ or --.  It also did a better job at classifying positive reviews than negative reviews. 
-<br><br>
-<font color = "MediumVioletRed"> Chart 3</font> visualises the word vectors after  de-meaning and then projects the vectors on 2 dimensions after PCA dimension reduction. For certain words, similar words are closer to each other in terms to cosine similarity (their angles with respect to the (0, 0) origin in the graph. 
-</p>
-<hr style="border-top: dotted 1px; color: #909090" />
-<br>
-<p style = "margin-left :4ch; margin-right:5ch; font-family: Bangla Sangam MN; color: #000; font-size: 18px">
-<b>Skipgram and Negative Sampling implementation</b><br><br>
-</p>
-<p style = "margin-left :4ch; margin-right:5ch; font-family: Helvetica Neue; color: #909090; font-size: 16px; line-height:1.4">
-
-Skipgram finds the optimal Input and output word vectors matrix V and U by optimising the loss function:<br>
-</p>
-<p align = "center" style = "margin-left :4ch; margin-right:5ch; font-family: Helvetica Neue; color: #909090; font-size: 16px; line-height:1.4">
-J= <font size = 5px> -{</font> log &sigma; ( u<sub>o</sub><sup>T</sup>v<sub>c</sub> ) + &sum; <sub> j &in; K </sub> <font size = 5px>[</font> log 1- &sigma; (  u<sub>j</sub><sup>T</sup> v<sub>c </sub> ) <font size = 5px> ] </font> <font size = 5px>}</font>
-</p>
-
