@@ -31,13 +31,7 @@ This project explores the power of word-vectors to do multi-classification with 
 "https://img1.wsimg.com/isteam/ip/2d33dabb-b536-484f-ac3e-25fe02574c07/ace2f00c-0845-4abd-a1b1-d94d095be5ec.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:650,cg:true"; width = 600px>
  
  </div>
-<pre style = "font-size: 15px;margin-left: 2em;
-margin-right: 3em; 
-    word-wrap: break-word; ">
-<p style = "margin-left :4ch; margin-right:5ch; font-family: Helvetica Neue;  font-size: 18px; line-height:1.4">
-<font color = "MediumVioletRed">chart 3</font>
-</p></pre>
-</div>
+
 <br>
 <p style = "margin-left :4ch; margin-right:5ch; font-family: Helvetica Neue; color: #909090; font-size: 16px; line-height:1.4">
 The logistic regression model with self-trained word-vectors achieved an accuracy of 28.55 on the best regularisation of 1.00e-02. The model with GloVe has an accuracy of 37.69 with regularisation 1.00e+01. This is because GloVe has more dimensions and therefore a much bigger regularisation term.  As the confusion matrix shows the model actually did a pretty good job doing a dichotomy decision and it tends to predict all reviews as - or +. But it rarely predicts correctly ++ or --.  It also did a better job at classifying positive reviews than negative reviews. 
