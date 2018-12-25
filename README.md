@@ -31,4 +31,6 @@ This project explores the power of word-vectors to do multi-classification with 
 "https://img1.wsimg.com/isteam/ip/2d33dabb-b536-484f-ac3e-25fe02574c07/ace2f00c-0845-4abd-a1b1-d94d095be5ec.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=h:650,cg:true"; width = 600px>
  
  </div>
-
+<br><br>
+<font color = "MediumVioletRed"> Chart 3</font> visualises the word vectors after  de-meaning and then projects the vectors on 2 dimensions after PCA dimension reduction. For certain words, similar words are closer to each other in terms to cosine similarity (their angles with respect to the (0, 0) origin in the graph. 
+</p>
